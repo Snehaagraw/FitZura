@@ -120,7 +120,7 @@ const HomePage = () => {
           <div className="about-us-card">
             <img src="/Krishnangi.jpg" alt="Team Member 2" className="about-us-image" />
             <h3 className="about-us-member-name">Krishnangi Agrawal</h3>
-            <p className="about-us-member-work">Frontend Developer</p>
+            <p className="about-us-member-work">FullStack Developer</p>
           </div>
           <div className="about-us-card">
             <img src="/Vedanshu.jpg" alt="Team Member 3" className="about-us-image" />
@@ -135,7 +135,7 @@ const HomePage = () => {
           <div className="about-us-card">
             <img src="/Sharad.jpg" alt="Team Member 5" className="about-us-image" />
             <h3 className="about-us-member-name">Sharad Kumar</h3>
-            <p className="about-us-member-work">Backend Developer</p>
+            <p className="about-us-member-work">FullStack Developer</p>
           </div>
         </div>
       </section>
