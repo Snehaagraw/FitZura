@@ -105,41 +105,6 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className="about-us" id="about-us">
-        <h2 className="about-us-title">Our Team</h2>
-        <p className="about-us-description">
-          At Fit Zura, our mission is to empower individuals to stay consistent in their fitness journey by offering a personalized, interactive experience. Our platform allows users to log and track their fitness activities in real-time, using both manual inputs and our custom-built NLP chatbot. Through engaging, conversational interactions, users can ask questions about their progress and receive instant, insightful responses. With clear data visualizations and personalized feedback, Fit Zura helps users stay motivated and achieve their fitness goals efficiently.
-        </p>
-        <div className="about-us-cards">
-          {/* Team Members */}
-          <div className="about-us-card">
-            <img src="/Priyanshu.jpg" alt="Team Member 1" className="about-us-image" />
-            <h3 className="about-us-member-name">Priyanshu Yadav</h3>
-            <p className="about-us-member-work">Frontend Developer</p>
-          </div>
-          <div className="about-us-card">
-            <img src="/Krishnangi.jpg" alt="Team Member 2" className="about-us-image" />
-            <h3 className="about-us-member-name">Krishnangi Agrawal</h3>
-            <p className="about-us-member-work">FullStack Developer</p>
-          </div>
-          <div className="about-us-card">
-            <img src="/Vedanshu.jpg" alt="Team Member 3" className="about-us-image" />
-            <h3 className="about-us-member-name">Vedanshu Maurya</h3>
-            <p className="about-us-member-work">Backend Developer</p>
-          </div>
-          <div className="about-us-card">
-            <img src="/Teena.jpg" alt="Team Member 4" className="about-us-image" />
-            <h3 className="about-us-member-name">Teena Gautam</h3>
-            <p className="about-us-member-work">Frontend Developer</p>
-          </div>
-          <div className="about-us-card">
-            <img src="/Sharad.jpg" alt="Team Member 5" className="about-us-image" />
-            <h3 className="about-us-member-name">Sharad Kumar</h3>
-            <p className="about-us-member-work">FullStack Developer</p>
-          </div>
-        </div>
-      </section>
-
       {/* Chatbot Shortcut Button */}
       <button className="chatbot-shortcut" onClick={toggleChatbot}>
         💬
